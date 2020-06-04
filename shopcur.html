@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 重置样式 -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- 引入公共样式 -->
+    <link rel="stylesheet" href="./css/common.css">
+    <!-- 引入css样式 -->
+    <link rel="stylesheet" href="./css/shopcur.css">
+    <!-- 引入jq样式 -->
+    <script src="./lib/jquery.min.js"></script>
+    <!-- 引入js样式 -->
+    <script src="./js/shopcur.js"></script>
+</head>
+<body>
+         <!-- 首页 -->
+     <header id="start" class="container-fluid ">
+     <div class="container-fluid bgc">
+       <div class="container clearfix">
+           <span class=" fl fe6 sta">legochina.cn</span>
+            <span class="fr fe6">欢迎光临<span><a class="f60" href="index.html">乐购</a> </span> ，请 登陆\<span><a class="f60" href="sign.html">注册</a> </span> </span>
+            <div class="signds clearfix">
+                <img src="./images/sign.logo.png" alt="">
+                <p class="signs">登录</p>
+           
+            </div>  
+        </div>
+        <div class="container start-bu"> 
+        <form action= ""class="search fr  sour-box fr">
+          <input class="fl search1" type="text" placeholder="设计中的设计 原研哉" />
+          <input class="fl search2" type="submit" value="" />
+          
+          <select  class="fr mt10 clearfix" name="">
+                  <option value="">成都高新区三环内</option>
+                  <option value="">成都高新区三环中</option>
+                  <option value="">成都高新区三环外</option>
+          </select><span class="fr mr">配送至</span>
+         
+        </form>
+        </div>
+     </div>
+     </header>
+
+<!--shopcur 购物车 -->
+<section id = "shopcur" class="container">
+   <div class="shopcurd">
+    <h3>填写并核对订单信息</h3>
+    <ul class="shopcurf">
+       <li  class="shop1 "><input class="allSel" type="checkbox">全选</li>
+       <li class="shop2">商品</li>
+       <li class="shop3">单价</li>
+       <li class="shop4">数量</li>
+       <li class="shop5">小计</li>
+       <li class="shop6">操作</li>
+     
+     </ul>
+     <div class="shopcur1">
+      <ul class="bt clearfix">
+       <li class="shop1"><input class="sigSel" type="checkbox"><img src="./images/rota1.jpg" alt=""></li>
+       <li class="shop2">从你的全世界路过</li>
+       <li class="shop3 sig">41.00</li>
+       <li class="shop4 clearfix"><span class="re">-</span><input class="inp" type="text" value="1"><span class="add">+</span></li>
+       <li class="shop5 select">41.00</li>
+       <li class="shop6">删除</li>
+     
+     </ul>
+     </div>
+       <div class="shopcur1">
+      <ul class=" clearfix">
+       <li class="shop1"><input class="sigSel" type="checkbox"><img src="./images/rota1.jpg" alt=""></li>
+       <li class="shop2">从你的全世界路过</li>
+       <li class="shop3 sig">41.00</li>
+       <li class="shop4 clearfix"><span class="re">-</span><input class="inp" type="text" value="1"><span class="add">+</span></li>
+       <li class="shop5 select">41.00</li>
+       <li class="shop6">删除</li>
+     
+     </ul>
+   </div>
+     <ul class="shopcurl">
+       <li  class="shop1"><input class="allSel" type="checkbox">全选</li>
+       <li class="shop2">删除选中商品</li>
+       
+       <li class="shop4">已选择<span class="f60 allNum">1</span>商品</li>
+       <li class="shop5">总价<span class="f60 allPrice">41.00</span></li>
+       <li class="shop6">去结算</li>
+     
+     </ul>
+     </div>
+    
+</section>
+
+
+<!-- 猜你喜欢 -->
+<section id="like" class="container">
+    <div class="com-title ">
+            <h3 class="f20 mt24 bgf60">猜你喜欢</h3>
+        </div>
+        <ul class="clearfix">
+        <li><p class="tcenter"><img src="./images/count1.jpg" alt=""></p>
+         <p><img src="./images/2.jpg" alt=""></p>
+          <p class="ti10">白夜行  东野上吾</p>
+          <p class="ti10 f60 l30">推荐：</p>
+          <p class="ti10">
+        <span class="f60">￥:38</span>
+        <del class="fcc">￥:58</del>
+        </p>
+        </li>
+       <li><p class="tcenter"><img src="./images/count1.jpg" alt=""></p>
+         <p><img src="./images/2.jpg" alt=""></p>
+          <p class="ti10">白夜行  东野上吾</p>
+          <p class="ti10 f60 l30">推荐：</p>
+          <p class="ti10">
+        <span class="f60">￥:38</span>
+        <del class="fcc">￥:58</del>
+        </p>
+        </li>
+        <li><p class="tcenter"><img src="./images/count1.jpg" alt=""></p>
+         <p><img src="./images/2.jpg" alt=""></p>
+          <p class="ti10">白夜行  东野上吾</p>
+          <p class="ti10 f60 l30">推荐：</p>
+          <p class="ti10">
+        <span class="f60">￥:38</span>
+        <del class="fcc">￥:58</del>
+        </p>
+        </li>
+        <li><p class="tcenter"><img src="./images/count1.jpg" alt=""></p>
+         <p><img src="./images/2.jpg" alt=""></p>
+          <p class="ti10">白夜行  东野上吾</p>
+          <p class="ti10 f60 l30">推荐：</p>
+          <p class="ti10">
+        <span class="f60">￥:38</span>
+        <del class="fcc">￥:58</del>
+        </p>
+        </li>
+        <li><p class="tcenter"><img src="./images/count1.jpg" alt=""></p>
+         <p><img src="./images/2.jpg" alt=""></p>
+          <p class="ti10">白夜行  东野上吾</p>
+          <p class="ti10 f60 l30">推荐：</p>
+          <p class="ti10">
+        <span class="f60">￥:38</span>
+        <del class="fcc">￥:58</del>
+        </p>
+        </li>
+        
+        </ul>
+</section>
+
+
+<!--pic 图片 -->
+<footer id="pic" class="container-fluid">
+     <div class="container"><img src="./images/rotad1.jpg" alt=""></div>
+</footer>
+      
+
+  <!-- footer 页尾 -->
+   <footer id="foot" class="container">
+       <div class="foot-top tcenter clearfix f18">
+         <ul>
+         <li class="fw">购物指南</li>
+         <li>购物流程</li>
+         <li>发票制度</li>
+         <li>账户管理</li>
+         <li>会员优惠</li>
+         </ul>
+
+         <ul>
+         <li class="fw">支付方式</li>
+         <li>货到付款</li>
+         <li>网上支付</li>
+         <li>礼品卡支付</li>
+         <li>银行转帐</li>
+         </ul>
+
+         <ul>
+         <li class="fw">订单服务</li>
+         <li>订单配送查询</li>
+         <li>订单状态说明</li>
+         <li>自助取消订单</li>
+         <li>自助修改订单</li>
+         </ul>
+
+         <ul>
+         <li class="fw">退换货</li>
+         <li>退换货政策</li>
+         <li>自助申请退换货</li>
+         <li>退换货进度查询</li>
+         <li>退款方式和时间</li>
+         </ul>
+
+         <ul>
+         <li class="fw">商家服务</li>
+         <li>商家中心</li>
+         <li>运营服务</li>
+         <li>加入尾品汇</li>
+         </ul>
+       </div>
+      <img src="./images/logo2.png" alt="">
+      <p></p>
+     <ul class="tcenter foot-on clearfix">
+     <li class="br">公司简介</li>
+     <li>Investor Relations </li>
+     <li>网站联盟</li>
+     <li>乐购招商</li>
+     <li>机构销售</li>
+     <li>手机乐购</li>
+     <li>官方Blog</li>
+     <li>热词搜索</li>
+     </ul>
+     <p class="tcenter mr42">Copyright (C) 乐购网 2004-2016, All Rights Reserved</p>
+   </footer>
+</body>
+</html>

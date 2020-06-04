@@ -1,0 +1,40 @@
+@charset "";
+
+#start div{position: relative;}
+#start div .signds{position: absolute;left: 0;}
+#start div>.sta{text-indent: 260px;}
+#start div .signds .signs{position: absolute;left: 170px;top: 45px;font-size: 30px;font-weight: bold;color: #fff;line-height: 32px;}
+#start form{margin: 10px 0;}
+#start .start-bu{margin-bottom: 100px;}
+
+
+/* 购物车 */
+#shopcur .shopcurd .shopcurf{height: 60px;width: 100%;background: #ccc;}
+#shopcur .shopcurd ul>li{float: left;line-height: 60px;}
+#shopcur .shopcurd .shop1{   width: 260px;text-indent: 30px;}
+#shopcur .shopcurd .shop2{ width: 312px;}
+#shopcur .shopcurd .shop3{ width: 200px}
+#shopcur .shopcurd .shop4{ width: 170px}
+#shopcur .shopcurd .shop5{text-indent: 10px;}
+#shopcur .shopcurd .shop6{ text-indent: 140px;}
+#shopcur .shopcurd>.shopcur1 ul>li{float: left;line-height: 147px;}
+#shopcur .shopcurd .inp{width: 20px;border: 1px solid #ccc;height: 20px;text-align: center;float: left;}
+#shopcur .shopcurd .shopcur1 li>span{border: 1px solid #ccc;line-height: 20px;text-align: center;float: left;width: 20px;cursor: pointer;}
+#shopcur .shopcurd>.shopcur1 .shop4 {margin-top: 65px;}
+#shopcur .shopcurd>.shopcur1 ul{border-bottom:1px solid #ccc;padding-bottom:10px;margin-bottom: 10px;}
+#shopcur .shopcurd ul>li{float: left;line-height: 60px;}
+#shopcur .shopcurd .shopcurl{height: 60px;width: 100%;border: 1px solid #ccc;}
+#shopcur .shopcurd .shopcurl .shop1{   width: 100px;text-indent: 30px;}
+#shopcur .shopcurd .shopcurl .shop2{   width: 670px;}
+#shopcur .shopcurd .shopcurl .shop5{   width: 100px;}
+#shopcur .shopcurd .shopcurl .shop6{width:160px;height: 60px;background: #f60;text-align: center;color: #fff;text-indent: 0;cursor: pointer;}
+
+
+
+/* 猜你喜欢 */
+#like h3{width: 90px;text-align: center;}
+#like ul{padding: 0 70px;}
+#like ul li{width: 210px;height: 258px; float: left;}
+
+/* 尾部 */
+#pic {border-bottom: 6px solid #f60;margin-top: 50px;}

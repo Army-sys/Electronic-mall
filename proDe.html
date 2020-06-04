@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>产品详情</title>
+    <!-- 重置样式 -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- 公共样式 -->
+    <link rel="stylesheet" href="./css/common.css">
+    <!-- 引入css插件 -->
+    <link rel="stylesheet" href="./css/slider.css">
+    <!-- 引入css放大镜插件 -->
+    <link rel="stylesheet" href="./css/magnifier.css">
+    <!-- css样式 -->
+    <link rel="stylesheet" href="./css/proDe.css">
+    <!-- 引入jq插件 -->
+    <script src="./lib/jquery.min.js"></script>
+    <!-- 引入jq轮播插件 -->
+    <script src="./lib/jquery.slidebox.js"></script>
+     <!-- 引入jq放大镜插件 -->
+     <script src="./lib/magnifier.js"></script>
+    <!-- 引入js插件 -->
+    <script src="./js/proDe.js"></script>
+</head>
+
+<body>
+    <!-- header 页头 -->
+    <header class="container-fluid">
+        <div class="container-fluid bgc ">
+            <!-- 顶栏 -->
+            <div class="container clearfix head-box ">
+
+                <span class="fl head-text">乐购legochina.cn</span>
+                <span class="fr head-text"> 欢迎光临<a class="fc60" href="#">乐购</a>，请<a class="fc60" href="#">登陆</a>\<a class="fc60" href="#">注册</a></span>
+                <div class="logo">
+                    <a href="#"><img src="./images/logo.jpg" alt="" /></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container clearfix pt10b16 sour-boxs ">
+            <!-- 购物车订单 -->
+            <div class="shop fr  clearfix">
+                <a class="shop1 tind" href="">购物车<span>3</span></a>
+                <a class="shop2" href="">我的订单</a>
+            </div>
+
+            <!-- 搜索框 -->
+            <form action="#" class="search fr mr40 sour-box">
+                <input class="fl search1" type="text" placeholder="创意文具" />
+                <input class="fl search2" type="submit" value="" />
+            </form>
+        </div>
+
+        <!-- 导航 -->
+        <nav class="container clearfix">
+            <ul class="fr mright">
+                <li><a href="#">图书</a></li>
+                <li><a href="#">电子书</a></li>
+                <li><a href="#">原创文学</a></li>
+                <li><a href="#">服装</a></li>
+                <li><a href="#">运动户外</a></li>
+                <li><a href="#">孕婴童</a></li>
+                <li><a href="#">家居</a></li>
+                <li><a href="#">创意文具</a></li>
+                <li><a href="#">地方特产</a></li>
+                <li><a href="#">海外购</a></li>
+                <li><a href="#">电器城</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--book 图书 -->
+    <section id="book" class="container-fluid bgf2">
+        <div class="container clearfix">
+            <ul>
+                <li class="fw f16">图书&gt;</li>
+                <li>小说&gt;</li>
+                <li>情感/家庭/婚姻&gt;</li>
+                <li>博集天卷&gt;</li>
+                <li>她和他</li>
+            </ul>
+        </div>
+        <div class="bookbu container">
+            <div class="book-left fl">
+            <div class="magnifier fl" id="magnifier1">
+                <div class="magnifier-container">
+                    <div class="images-cover"></div>
+                    <!--当前图片显示容器-->
+                    <div class="move-view"></div>
+                    <!--跟随鼠标移动的盒子-->
+                </div>
+                <div class="magnifier-assembly">
+                    <div class="magnifier-btn">
+                        <span class="magnifier-btn-left">&lt;</span>
+                        <span class="magnifier-btn-right">&gt;</span>
+                    </div>
+                    <!--按钮组-->
+                    <div class="magnifier-line">
+                        <ul class="clearfix animation03">
+                            <li>
+                                <div class="small-img">
+                                    <img src="./images/1.png" />
+                                </div>
+                            </li>
+                            <li>
+                                <div class="small-img">
+                                    <img src="./images/2.png" />
+                                </div>
+                            </li>
+                            <li>
+                                <div class="small-img">
+                                    <img src="./images/3.png" />
+                                </div>
+                            </li>
+                            <li>
+                                <div class="small-img">
+                                    <img src="./images/4.png" />
+                                </div>
+                            </li>
+                            <li>
+                                <div class="small-img">
+                                    <img src="./images/1.png" />
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--缩略图-->
+                </div>
+                <div class="magnifier-view"></div>
+                <!--经过放大的图片显示容器-->
+    </div>
+            
+            </div>
+            <div class="book-right fl mr50">
+                <div class="book-rightt">
+                    <h3 class="f18">她和他</h3>
+                    <p class="f60 l30 f16">《偷影子的人》作者马克·李维重磅新作，法国连续60周在榜，销量突破120万册</p>
+                    <p>[法]&nbsp; 马克·李维 &nbsp;著；&nbsp;杨亦雨 &nbsp;译</p>
+                </div>
+
+
+                <div class="book-rightc pl20 bgf5">
+                    <p>乐 购 价：<span class="f60">￥26.20</span>&nbsp; [6.9折]&nbsp; [定价：￥38.00] &nbsp;(降价通知)</p>
+                    <p>促销信息：<span class="f60">满减 每满150.00元，可减50.00元现金</span> 详情 >></p>
+                    <p class="bookl">领 券：<span>100-6</span> <span>100-6</span> </p>
+                </div>
+
+
+                <div class="book-rightcb clearfix">
+                    <span class="fl">种类选择：</span>
+                    <ul class="fl">
+                        <li class="active">平装版</li>
+                        <li>精装版</li>
+                    </ul>
+                </div>
+
+
+                <div class="book-rightb clearfix">
+                    <div class="clearfix">
+                        <div class="pt15 fl clearfix">
+                            <div class="fl "><input class="ri1" type="text" value="1"></div>
+                            <div class="fl ri2">
+                                <p class="inc">+</p>
+                                <p class="redu">-</p>
+                            </div>
+                        </div clear="clearfix">
+                        <div class="shop fl f20 bgf60">加入购物车</div>
+                    </div>
+                    <div class="shopl">温馨提示：支持7天无理由退货</div>
+                </div>
+
+    </section>
+
+    <!-- 中部 -->
+    <div class="container">
+    <img src="./images/bookll2.jpg" alt="">
+    
+    </div>
+
+    <!-- 底部 -->
+    <section id= "footle" class="container-fluid">
+   <div class="foot container">
+   <img src="./images/rotad1.jpg" alt="">
+   </div>
+    
+    
+    </section>
+
+
+
+    
+    <!-- footer 页尾 -->
+    <footer id="foot" class="container">
+        <div class="foot-top tcenter clearfix f18">
+            <ul>
+                <li class="fw">购物指南</li>
+                <li>购物流程</li>
+                <li>发票制度</li>
+                <li>账户管理</li>
+                <li>会员优惠</li>
+            </ul>
+
+            <ul>
+                <li class="fw">支付方式</li>
+                <li>货到付款</li>
+                <li>网上支付</li>
+                <li>礼品卡支付</li>
+                <li>银行转帐</li>
+            </ul>
+
+            <ul>
+                <li class="fw">订单服务</li>
+                <li>订单配送查询</li>
+                <li>订单状态说明</li>
+                <li>自助取消订单</li>
+                <li>自助修改订单</li>
+            </ul>
+
+            <ul>
+                <li class="fw">退换货</li>
+                <li>退换货政策</li>
+                <li>自助申请退换货</li>
+                <li>退换货进度查询</li>
+                <li>退款方式和时间</li>
+            </ul>
+
+            <ul>
+                <li class="fw">商家服务</li>
+                <li>商家中心</li>
+                <li>运营服务</li>
+                <li>加入尾品汇</li>
+            </ul>
+        </div>
+        <img src="./images/logo2.png" alt="">
+        <p></p>
+        <ul class="tcenter foot-on clearfix">
+            <li class="br">公司简介</li>
+            <li>Investor Relations </li>
+            <li>网站联盟</li>
+            <li>乐购招商</li>
+            <li>机构销售</li>
+            <li>手机乐购</li>
+            <li>官方Blog</li>
+            <li>热词搜索</li>
+        </ul>
+        <p class="tcenter mr42">Copyright (C) 乐购网 2004-2016, All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>

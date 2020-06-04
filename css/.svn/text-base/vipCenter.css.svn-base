@@ -1,0 +1,9 @@
+@charset "";
+
+#start>div{position: relative;}
+#start div .signds{position: absolute;left: 0;}
+#start div>.sta{text-indent: 260px;}
+#start div .signds .signs{position: absolute;left: 135px;top: 52px;font-size: 30px;font-weight: bold;color: #fff;line-height: 32px;}
+#start div .signds .signd{position: absolute;left: 285px;top: 53px;width: 240px;font-size: 30px;}
+#start ul li{float: left; height: 36px;width: 80px;text-align: center;line-height: 36px;margin:24px 0 24px 64px;}
+#start ul li.active{background: #f60;}

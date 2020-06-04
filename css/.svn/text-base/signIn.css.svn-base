@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+#start div{position: relative;}
+#start {border-bottom: 3px solid #ccc;height: 105px;}
+#start div .signds{position: absolute;left: 0;}
+#start div>.sta{text-indent: 260px;}
+#start div .signds .signs{position: absolute;left: 170px;top: 45px;font-size: 30px;font-weight: bold;color: #fff;line-height: 32px;}
+#start .start-rig{margin-right: 30px;font-size: 22px ;display: inline-block;margin-top: 30px;user-select:none;}
+
+/* 登录 */
+#signIn p{width: 424px;}
+#signIn .box1 span{border: 1px solid #ccc;border-right: none;display: inline-block;height:45px;line-height: 42px;width: 70px;text-align: center;}
+#signIn .box{width: 350px;height: 45px;text-indent: 20px;border:1px solid #ccc;border-left:none;}
+#signIn form{margin: 0 auto;width: 400px;}
+#signIn form .box{margin: 20px 0;}
+#signIn form .signInb{width: 424px;text-indent: -10px;border-left: 1px solid #ccc;background: #ff6600;color: #fff;font-size: 20px;}
+#signIn .img1{position: relative;}
+#signIn .img2{position: relative;}
+#signIn p .in1{position: absolute;right: 5px;top: 26px;}
+#signIn p .in2{position: absolute;right: 6px;top: 26px;}
+#signIn .box1{position: relative;}
+#signIn .box1 #user-error{position: absolute;left: 70px;top: 75px;color: red;}
+#signIn .box1 #pwd-error{position: absolute;left: 70px;top: 75px;color: red;}
+#signIn .box1 #checkPwd-error{position: absolute;left: 70px;top: 75px;color: red;}

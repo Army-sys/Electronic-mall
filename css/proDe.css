@@ -1,0 +1,19 @@
+#book{height: 600px;}
+#book li{float:left;margin-right: 10px ;text-align: center;margin-top: 20px;}
+#book .bookbu{height: 487px;background: #fff;margin-top: 20px;padding-top: 15px;}
+#book .book-left{height: 474px;width: 342px;}
+#book .book-right .book-rightt{height: 91px;width: 638px;}
+#book .book-right .book-rightc{height: 140px;width: 768px;}
+#book .book-right .book-rightc p:first-child span{font-size: 18px;line-height: 50px;font-weight: bold;text-indent: 10px;}
+#book .book-right .book-rightc>.bookl span{background: url(../images/bookl11.png)no-repeat;background-size:80px 28px;height: 50px;width:80px;display: inline-block;line-height: 30px;text-align: center;color: #fff;}
+#book .book-right .book-rightc>.bookl{line-height: 50px;}
+#book .book-right .book-rightcb li{border: 1px solid #ccc;line-height: 34px;width: 100px;cursor: pointer;user-select: none;}
+#book .book-right .book-rightcb li.active{border: 2px solid #f60;background: url(../images/select.png)no-repeat;background-position:83px 19px ;}
+#book .book-right .book-rightcb span{line-height: 76px;font-size: 16px;}
+#book .book-right .book-rightb .ri1{border: 1px solid #000;width: 30px;height: 30px;text-align: center;line-height: 30px;}
+#book .book-right .book-rightb .ri2 p{border: 1px solid #000;width: 15px;height: 14px;text-align: center;line-height: 14px;background: #d9d9d9;border-left: none;cursor: pointer;user-select: none;}
+#book .book-right .book-rightb .shop{height: 60px;width: 190px; border: 1px solid #000;text-align: center;line-height: 60px;margin-left:20px ;color: #fff;cursor: pointer;}
+#book .book-right .book-rightb .shopl{margin-top: 10px;color: #808080;}
+
+
+#footle{border-bottom: 6px solid #f60;margin-top: 200px;}
